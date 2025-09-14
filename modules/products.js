@@ -75,39 +75,78 @@ export function getProducts() {
             ]
         },
         {
-            id: 'gorra-con-m',
-            name: 'Gorra con M',
-            description: 'Gorra ajustable con el logo bordado "M". Un accesorio imprescindible. Disponible en rojo, blanco y azul.',
+            id: 'gorra-lila',
+            name: 'Gorra Lila MallyWear',
+            description: 'Gorra ajustable en color lila, un accesorio imprescindible con el logo bordado.',
             category: 'Gorras',
             images: [
-                './images/gorras/gorra-con-m-roja.png',
-                './images/gorras/gorra-con-m-blanca.png',
-                './images/gorras/gorra-con-m-azul.png'
+                './images/gorras/GorraLilaMallyWear.jpg'
             ],
             variants: [
                 {
-                    sku: 'gorra-con-m-roja-unica',
-                    style: 'con M',
+                    sku: 'gorra-lila-unica',
+                    style: 'Lila',
+                    color: 'Lila',
+                    size: 'Única',
+                    price_gs: 180000,
+                    stock: 10
+                }
+            ]
+        },
+        {
+            id: 'gorra-negra',
+            name: 'Gorra Negra MallyWear',
+            description: 'Gorra clásica en color negro, perfecta para cualquier outfit.',
+            category: 'Gorras',
+            images: [
+                './images/gorras/GorraNegraMallyWaer.jpg'
+            ],
+            variants: [
+                {
+                    sku: 'gorra-negra-unica',
+                    style: 'Negra',
+                    color: 'Negro',
+                    size: 'Única',
+                    price_gs: 180000,
+                    stock: 8
+                }
+            ]
+        },
+        {
+            id: 'gorra-mally',
+            name: 'Gorra Mally Logo',
+            description: 'Gorra con el logo principal de Mally, ajustable para mayor comodidad.',
+            category: 'Gorras',
+            images: [
+                './images/gorras/GorraMally.jpg'
+            ],
+            variants: [
+                {
+                    sku: 'gorra-mally-unica',
+                    style: 'Mally Logo',
+                    color: 'Negro',
+                    size: 'Única',
+                    price_gs: 180000,
+                    stock: 5
+                }
+            ]
+        },
+        {
+            id: 'gorra-roja',
+            name: 'Gorra Roja MallyWear',
+            description: 'Gorra en color rojo vibrante, con el logo de MallyWear bordado.',
+            category: 'Gorras',
+            images: [
+                './images/gorras/GorraRojaMallyWear.jpg'
+            ],
+            variants: [
+                {
+                    sku: 'gorra-roja-unica',
+                    style: 'Roja',
                     color: 'Rojo',
                     size: 'Única',
-                    price_gs: 85000,
-                    stock: 10
-                },
-                {
-                    sku: 'gorra-con-m-blanca-unica',
-                    style: 'con M',
-                    color: 'Blanco',
-                    size: 'Única',
-                    price_gs: 85000,
+                    price_gs: 180000,
                     stock: 7
-                },
-                {
-                    sku: 'gorra-con-m-azul-unica',
-                    style: 'con M',
-                    color: 'Azul',
-                    size: 'Única',
-                    price_gs: 85000,
-                    stock: 5
                 }
             ]
         },
