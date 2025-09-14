@@ -1,0 +1,182 @@
+[
+    {
+        "id": "remera-classic",
+        "name": "Remera Classic",
+        "description": "Remera de algodón con un diseño básico y elegante.",
+        "category": "Remeras",
+        "images": [
+            "images/remeras/remera-classic-negra.png",
+            "images/remeras/remera-classic-blanca.png"
+        ],
+        "variants": [
+            {
+                "color": "Negro",
+                "size": "S",
+                "price_gs": 120000,
+                "stock": 5,
+                "image": "images/remeras/remera-classic-negra.png"
+            },
+            {
+                "color": "Negro",
+                "size": "M",
+                "price_gs": 120000,
+                "stock": 8,
+                "image": "images/remeras/remera-classic-negra.png"
+            },
+            {
+                "color": "Blanco",
+                "size": "S",
+                "price_gs": 120000,
+                "stock": 3,
+                "image": "images/remeras/remera-classic-blanca.png"
+            },
+            {
+                "color": "Blanco",
+                "size": "M",
+                "price_gs": 120000,
+                "stock": 10,
+                "image": "images/remeras/remera-classic-blanca.png"
+            }
+        ]
+    },
+    {
+        "id": "sudadera-mally",
+        "name": "Sudadera 'Mally'",
+        "description": "Sudadera de algodón con un diseño 'Mally' exclusivo.",
+        "category": "Sudaderas",
+        "images": [
+            "images/sudaderas/sudadera-mally-blanca.png",
+            "images/sudaderas/sudadera-mally-negra.png"
+        ],
+        "variants": [
+            {
+                "color": "Blanco",
+                "size": "S",
+                "price_gs": 250000,
+                "stock": 5,
+                "image": "images/sudaderas/sudadera-mally-blanca.png"
+            },
+            {
+                "color": "Blanco",
+                "size": "M",
+                "price_gs": 250000,
+                "stock": 8,
+                "image": "images/sudaderas/sudadera-mally-blanca.png"
+            },
+            {
+                "color": "Negro",
+                "size": "S",
+                "price_gs": 250000,
+                "stock": 3,
+                "image": "images/sudaderas/sudadera-mally-negra.png"
+            },
+            {
+                "color": "Negro",
+                "size": "M",
+                "price_gs": 250000,
+                "stock": 10,
+                "image": "images/sudaderas/sudadera-mally-negra.png"
+            }
+        ]
+    },
+    {
+        "id": "gorra-unisex",
+        "name": "Gorra Unisex",
+        "description": "Gorra ajustable con logo bordado, disponible en varios colores.",
+        "category": "Gorras",
+        "images": [
+            "images/gorras/gorra-negra.png",
+            "images/gorras/gorra-blanca.png",
+            "images/gorras/gorra-lila.png"
+        ],
+        "variants": [
+            {
+                "color": "Negro",
+                "size": "Única",
+                "price_gs": 85000,
+                "stock": 12,
+                "image": "images/gorras/gorra-negra.png"
+            },
+            {
+                "color": "Blanco",
+                "size": "Única",
+                "price_gs": 85000,
+                "stock": 8,
+                "image": "images/gorras/gorra-blanca.png"
+            },
+            {
+                "color": "Lila",
+                "size": "Única",
+                "price_gs": 85000,
+                "stock": 6,
+                "image": "images/gorras/gorra-lila.png"
+            }
+        ]
+    },
+    {
+        "id": "zapatilla-urbana",
+        "name": "Zapatilla Urbana",
+        "description": "Zapatilla de diseño urbano y estilo único.",
+        "category": "Zapatillas",
+        "images": [
+            "images/zapatillas/zapatilla-blanca.png",
+            "images/zapatillas/zapatilla-negra.png"
+        ],
+        "variants": [
+            {
+                "color": "Blanco",
+                "size": "40",
+                "price_gs": 450000,
+                "stock": 4,
+                "image": "images/zapatillas/zapatilla-blanca.png"
+            },
+            {
+                "color": "Blanco",
+                "size": "42",
+                "price_gs": 450000,
+                "stock": 7,
+                "image": "images/zapatillas/zapatilla-blanca.png"
+            },
+            {
+                "color": "Negro",
+                "size": "40",
+                "price_gs": 450000,
+                "stock": 5,
+                "image": "images/zapatillas/zapatilla-negra.png"
+            },
+            {
+                "color": "Negro",
+                "size": "42",
+                "price_gs": 450000,
+                "stock": 9,
+                "image": "images/zapatillas/zapatilla-negra.png"
+            }
+        ]
+    },
+    {
+        "id": "gafas-sol-pilot",
+        "name": "Gafas de Sol Pilot",
+        "description": "Gafas de sol con protección UV400 y diseño clásico.",
+        "category": "Gafas",
+        "images": [
+            "images/gafas/gafas-negras.png",
+            "images/gafas/gafas-doradas.png"
+        ],
+        "variants": [
+            {
+                "color": "Negro",
+                "size": "Única",
+                "price_gs": 100000,
+                "stock": 15,
+                "image": "images/gafas/gafas-negras.png"
+            },
+            {
+                "color": "Dorado",
+                "size": "Única",
+                "price_gs": 100000,
+                "stock": 10,
+                "image": "images/gafas/gafas-doradas.png"
+            }
+        ]
+    }
+]
