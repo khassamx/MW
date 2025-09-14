@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MallyWear - Estilo para la nueva generación</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">MallyWear</div>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#" id="cart-btn" class="cart-icon"><i class="fas fa-shopping-cart"></i> Carrito (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-video">
+            <video autoplay muted loop playsinline class="background-video">
+                <source src="./images/VID-20250913-WA0017.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+            <div class="hero-overlay">
+                <h1>Descubre tu estilo único</h1>
+                <p>La mejor moda para ti, con calidad y diseño incomparables.</p>
+                <button class="cta-button">Ver Colección</button>
+            </div>
+        </section>
+
+        <section class="search-and-filter-section">
+            <input type="text" id="search-input" placeholder="Buscar por nombre, color o estilo...">
+            <div class="category-buttons">
+                <button class="category-btn active" data-category="all">Todos</button>
+                <button class="category-btn" data-category="Remeras">Remeras</button>
+                <button class="category-btn" data-category="Sudaderas">Sudaderas</button>
+                <button class="category-btn" data-category="Gorras">Gorras</button>
+                <button class="category-btn" data-category="Zapatillas">Zapatillas</button>
+                <button class="category-btn" data-category="Gafas">Gafas</button>
+            </div>
+        </section>
+
+        <section id="productos" class="productos">
+            <h2>Productos Disponibles</h2>
+            <div id="product-list" class="galeria-productos">
+                </div>
+        </section>
+        
+        <div id="cart-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h3>Tu Carrito</h3>
+                <div id="cart-items" class="cart-items-container">
+                    </div>
+                <div class="cart-total">
+                    <h4>Total: <span id="cart-total-price">0 Gs.</span></h4>
+                </div>
+                <button id="checkout-btn" class="cta-button">Finalizar Pedido</button>
+            </div>
+        </div>
+
+        <section id="contacto" class="contacto">
+            <h2>Confirma tu pedido</h2>
+            <p class="subtitle">Completa tus datos para finalizar. Solo para envíos en Paraguay vía encomienda (1-5 días).</p>
+            <div class="payment-method-container">
+                <div class="payment-method">
+                    <i class="fas fa-money-check-alt"></i>
+                    <h4>Pago por Transferencia Bancaria o Giros</h4>
+                    <p>Una vez confirmes tu pedido, te contactaremos por WhatsApp con los datos de pago. El pedido se enviará solo después de recibir la confirmación de tu pago.</p>
+                </div>
+            </div>
+
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Nombre completo" name="Nombre" required>
+                <input type="text" id="cedula" placeholder="Número de Cédula" name="Cedula" required>
+                <input type="tel" id="phone" placeholder="Teléfono" name="Telefono" required>
+                <input type="text" id="city" placeholder="Ciudad" name="Ciudad" required>
+                <input type="text" id="region" placeholder="Región/Departamento" name="Region" required>
+                <input type="text" id="address" placeholder="Dirección para la encomienda" name="Direccion" required>
+                <textarea id="message" placeholder="Mensaje adicional (ej. referencia de casa, etc.)" name="Mensaje"></textarea>
+                <button type="submit" class="submit-button">Confirmar y Enviar Pedido</button>
+            </form>
+            <div id="status-message" class="status-message"></div>
+        </section>
+
+        <section class="redes-sociales">
+            <h2>Síguenos</h2>
+            <div class="social-links">
+                <a href="https://www.instagram.com/mally.wear" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://www.tiktok.com/@mallywearpy" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+                <a href="https://wa.me/595984869105" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 MallyWear. Todos los derechos reservados.</p>
+            <p><strong>Fundador:</strong> Eder Villalba | <strong>Creador Web:</strong> NoaDevStudio</p>
+        </div>
+    </footer>
+
+    <a href="#" class="whatsapp-btn" target="_blank" id="whatsapp-link">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
